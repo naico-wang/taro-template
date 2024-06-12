@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "test",
-  "description": "sto-taro",
-  "appid": "touristappid",
+  "projectname": "sto-taro",
+  "description": "sto taro version",
+  "appid": "wxb0bd667f1c2ccd3a",
   "setting": {
     "urlCheck": true,
     "es6": false,

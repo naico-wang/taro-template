@@ -1,4 +1,4 @@
-export default defineAppConfig({
+const defineAppConfig = {
   pages: [
     'pages/index/index'
   ],
@@ -8,4 +8,6 @@ export default defineAppConfig({
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
   }
-})
+}
+
+export default defineAppConfig

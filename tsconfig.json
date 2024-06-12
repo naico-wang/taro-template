@@ -19,9 +19,28 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "typeRoots": [
-      "node_modules/@types"
-    ]
+      "node_modules/@types",
+      "types",
+      "global.d.ts"
+    ],
+    "paths": {
+      "@/actions/*": ["./src/actions/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/constants/*": ["./src/constants/*"],
+      "@/project": ["./project.config.json"],
+      "@/reducers/*": ["./src/reducers/*"],
+      "@/types/*": ["./src/types/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/sdk/*": ["./src/sdk/*"],
+      "@/styles/*": ["./src/styles/*"]
+    }
   },
   "include": ["./src", "./types"],
+  "exclude": [
+    "node_modules/*",
+    "dist/*"
+  ],
   "compileOnSave": false
 }

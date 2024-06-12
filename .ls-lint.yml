@@ -1,0 +1,25 @@
+ls:
+  packages/*/src:
+    .js: kebab-case
+    .ts: camelCase | PascalCase | kebab-case | point.case
+    .test.ts: camelCase
+    .types.ts: camelCase
+    .fixtures.ts: camelCase
+    .d.ts: camelCase
+    .spec.ts: camelCase | PascalCase
+    .mock.ts: camelCase
+    .stories.ts: PascalCase
+
+  packages/*/src/components/*:
+    .dir: PascalCase | snake_case
+    .tsx: PascalCase
+    .less: PascalCase
+
+  packages/**/{__tests__}:
+    .spec.ts: camelCase | PascalCase
+    .test.ts: camelCase | PascalCase
+
+ignore:
+  - .git
+  - node_modules
+  - dist

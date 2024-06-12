@@ -1,22 +1,29 @@
-import { ADD, MINUS } from '../constants/counter'
+import { ADD, MINUS } from '@/constants/counter'
 
-const INITIAL_STATE = {
+type CounterState = {
+  num: number
+}
+
+const initialState = {
   num: 0
 }
 
-export default function counter (state = INITIAL_STATE, action) {
-  switch (action.type) {
-    case ADD:
-      return {
-        ...state,
-        num: state.num + 1
-      }
-     case MINUS:
-       return {
-         ...state,
-         num: state.num - 1
-       }
-     default:
-       return state
+const reducer = {
+  [ADD](state: CounterState) {
+    return {
+      ...state,
+      num: state.num + 1
+    }
+  },
+  [MINUS](state: CounterState) {
+    return {
+      ...state,
+      num: state.num - 1
+    }
   }
+}
+
+export default {
+  initialState,
+  reducer
 }
