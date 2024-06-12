@@ -24,17 +24,18 @@
       "global.d.ts"
     ],
     "paths": {
-      "@/actions/*": ["./src/actions/*"],
+      "@/actions/*": ["./src/redux/actions/*"],
       "@/assets/*": ["./src/assets/*"],
       "@/components/*": ["./src/components/*"],
       "@/constants/*": ["./src/constants/*"],
       "@/project": ["./project.config.json"],
-      "@/reducers/*": ["./src/reducers/*"],
+      "@/reducers/*": ["./src/redux/reducers/*"],
       "@/types/*": ["./src/types/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/hooks/*": ["./src/hooks/*"],
       "@/sdk/*": ["./src/sdk/*"],
-      "@/styles/*": ["./src/styles/*"]
+      "@/styles/*": ["./src/styles/*"],
+      "@/store/*": ["./src/redux/store/*"]
     }
   },
   "include": ["./src", "./types"],

@@ -1,8 +1,8 @@
 import Taro from '@tarojs/taro'
 import React, { Component } from 'react'
 import { interceptor } from '@/utils/service'
+import configStore from '@/store/index'
 import { Provider } from 'react-redux'
-import configStore from './store'
 
 import './app.less'
 
