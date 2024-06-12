@@ -1,23 +1,7 @@
 {
   "rules": [{
     "action": "allow",
-    "page": "pages/home/index"
-  }, {
-    "action": "allow",
-    "page": "pages/product/listing/index"
-  }, {
-    "action": "allow",
-    "page": "pages/product/detail/index",
-    "params": ["productId", "merchantId"],
-    "matching": "inclusive"
-  }, {
-    "action": "allow",
-    "page": "pages/content/index",
-    "params": ["contentId"],
-    "matching": "inclusive"
-  }, {
-    "action": "allow",
-    "page": "pages/outfit/index"
+    "page": "pages/index/index"
   }, {
     "action": "disallow",
     "page": "*"

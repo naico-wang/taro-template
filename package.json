@@ -1,8 +1,8 @@
 {
-  "name": "sto-taro",
+  "name": "project-name",
   "version": "1.0.0",
   "private": true,
-  "description": "sto-taro",
+  "description": "Project Description",
   "templateInfo": {
     "name": "redux",
     "typescript": true,
@@ -36,7 +36,7 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "Marriott Engineering Team",
+  "author": "",
   "license": "MIT",
   "engines": {
     "node": ">=18.20.3"
